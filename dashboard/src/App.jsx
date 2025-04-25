@@ -1,3 +1,11 @@
-const fs = require('fs');
+import React from 'react';
 
-fs.writeFileSync('new_file.txt', '');
+function App() {
+
+  return (
+    <div>
+        App component
+    </div>
+  );
+}
+export default App;
